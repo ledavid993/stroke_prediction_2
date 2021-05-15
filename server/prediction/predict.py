@@ -7,10 +7,10 @@ FILE_DIR = os.path.dirname(__file__)
 with open(os.path.join(FILE_DIR, 'model', 'model.pkl'), 'rb') as f:
     model = pickle.load(f)
 
-with open(os.path.join(FILE_DIR, 'model\onehotencoder.pkl'), 'rb') as f:
+with open(os.path.join(FILE_DIR, 'model', 'onehotencoder.pkl'), 'rb') as f:
     encoder = pickle.load(f)
 
-with open(os.path.join(FILE_DIR, 'model\scaler.pkl'), 'rb') as f:
+with open(os.path.join(FILE_DIR, 'model', 'scaler.pkl'), 'rb') as f:
     scaler = pickle.load(f)
 
 features = ['gender', 'age', 'hypertension', 'heart_disease',
