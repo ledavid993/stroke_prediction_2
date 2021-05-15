@@ -10,9 +10,12 @@ colorama==0.4.4
 cycler==0.10.0
 decorator==5.0.8
 defusedxml==0.7.1
+dj-database-url==0.5.0
 Django==3.2.3
+django-heroku==0.3.1
 djangorestframework==3.12.4
 entrypoints==0.3
+gunicorn==20.1.0
 ipykernel==5.5.5
 ipython==7.23.1
 ipython-genutils==0.2.0
@@ -46,6 +49,7 @@ pickleshare==0.7.5
 Pillow==8.2.0
 prometheus-client==0.10.1
 prompt-toolkit==3.0.18
+psycopg2==2.8.6
 pycodestyle==2.7.0
 pycparser==2.20
 Pygments==2.9.0
@@ -71,4 +75,5 @@ tornado==6.1
 traitlets==5.0.5
 wcwidth==0.2.5
 webencodings==0.5.1
+whitenoise==5.2.0
 widgetsnbextension==3.5.1
